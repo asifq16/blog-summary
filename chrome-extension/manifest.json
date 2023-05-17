@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "name":"Blog-Summary",
+    "description": "Blog Summary",
+    "version": "1.0",
+    "icons": {
+        "16":"./images/44.png",
+        "48":"./images/44.png",
+        "128":"./images/44.png"
+    },
+    "content_scripts":[{
+        "js": ["content.js"],
+         "matches": [ "https://www.bbc.com/news/*" ]
+     }
+    ]
+}

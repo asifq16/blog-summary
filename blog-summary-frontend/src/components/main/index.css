@@ -1,0 +1,55 @@
+.heading{
+    color: azure;
+    text-align: -webkit-center;
+    font-weight: 600;
+}
+
+.outer-placement{
+    text-align: -webkit-center;
+}
+
+.input-card{
+    width: 40%;
+    height: 5%;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.search{
+    border-radius: 20px;
+    color: #282c34;
+    border: #282c34 solid 4px;
+    height: 100px;
+}
+
+.search:hover{
+    border: #282c34 solid 4px;
+}
+.search:after{
+    border: #282c34 solid 4px;
+}
+.search:before{
+    border: #282c34 solid 4px;
+}
+.search-button{
+    border-radius: 10px;
+    border: #282c34 solid;
+}
+.search-button:hover{
+    color: #282c34;
+    border: #282c34 solid;
+}
+.search-button:focus{
+    color: #282c34;
+    border: #282c34 solid;
+    box-shadow: 0.5px 2px 0.5px 2px#282c34;
+}
+.save-icon{
+    background-color: azure;
+    border: #282c34 3px solid;
+}
+
+.spin {
+    color:#282c34
+}
